@@ -1,0 +1,72 @@
+.
+├── __pycache__
+│   ├── app.cpython-312.pyc
+│   ├── main.cpython-312.pyc
+│   ├── reciever.cpython-312.pyc
+│   ├── sender.cpython-312.pyc
+│   └── sender_server.cpython-312.pyc
+├── app.yaml
+├── dockerFile
+├── downloaded_files
+│   ├── driver_fixing.lock
+│   └── pyautogui.lock
+├── main.py
+├── poetry.lock
+├── pyproject.toml
+├── readme.md
+├── reciever.py
+├── request.md
+├── requirements.txt
+├── scheduler
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── email_distributor.cpython-312.pyc
+│   │   └── schedule_manager.cpython-312.pyc
+│   ├── email_distributor.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   └── email_schedule.cpython-312.pyc
+│   │   └── email_schedule.py
+│   ├── schedule_manager.py
+│   └── utils
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-312.pyc
+│       │   ├── time_utils.cpython-312.pyc
+│       │   └── validation.cpython-312.pyc
+│       ├── time_utils.py
+│       └── validation.py
+├── sending_service
+│   ├── __pycache__
+│   │   └── sender.cpython-312.pyc
+│   └── sender.py
+├── src
+│   └── app
+│       ├── __pycache__
+│       │   └── main.cpython-312.pyc
+│       └── lib
+│           ├── __init__.py
+│           ├── __pycache__
+│           │   ├── __init__.cpython-312.pyc
+│           │   ├── anthropic_agent.cpython-312.pyc
+│           │   ├── gcloud_api_based_functions.cpython-312.pyc
+│           │   ├── gpt_agent.cpython-312.pyc
+│           │   ├── graph_based_functions.cpython-312.pyc
+│           │   ├── imap_tools_based_functions.cpython-312.pyc
+│           │   ├── prompts.cpython-312.pyc
+│           │   ├── smpt_based_functions.cpython-312.pyc
+│           │   ├── smtp_based_funcions.cpython-312.pyc
+│           │   └── supabase_client.cpython-312.pyc
+│           ├── anthropic_agent.py
+│           ├── gpt_agent.py
+│           ├── graph_based_functions.py
+│           ├── imap_tools_based_functions.py
+│           ├── prompts.py
+│           ├── smtp_based_funcions.py
+│           └── supabase_client.py
+└── treez
+
+16 directories, 54 files

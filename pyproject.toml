@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "email-sender"
+version = "0.1.0"
+description = ""
+authors = ["mohamed-JJ <simojarboue24@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+google = "^3.0.0"
+google-auth = "^2.33.0"
+google-api-python-client = "^2.140.0"
+google-auth-oauthlib = "^1.2.1"
+google-auth-httplib2 = "^0.2.0"
+fastapi = {extras = ["standard"], version = "^0.112.0"}
+httplib2 = "^0.22.0"
+imap-tools = "^1.7.2"
+anthropic = "^0.34.0"
+apscheduler = "^3.10.4"
+sqlalchemy = "^2.0.32"
+msal = "^1.31.0"
+schedule = "^1.2.2"
+rich = "^13.8.1"
+flask = "^3.0.3"
+flask-cors = "^5.0.0"
+gunicorn = "^23.0.0"
+openai = "^1.51.1"
+supabase = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

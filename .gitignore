@@ -1,0 +1,55 @@
+# Python
+
+__pycache__/
+*.py[cod]
+*.class
+
+# Drivers
+DRIVERS/
+
+# Environment
+.env
+example.env
+
+# Data files
+*.json
+
+# Firefox profile
+firefox_profile/
+
+# Mac
+.DS_Store
+
+# Cache
+cache2/
+
+# Create .gitignore
+cat > .gitignore << 'EOF'
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+# Drivers
+DRIVERS/
+**/drivers/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment variables
+.env
+EOF
